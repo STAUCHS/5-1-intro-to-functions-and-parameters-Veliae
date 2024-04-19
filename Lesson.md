@@ -63,12 +63,14 @@ print(f"The area of the rectangle is: {area} cm^2")
 
 With a function:
 ```python
-
+def rect_area(length: float, width: float):
+    area = length * width
+    print(area)
 ```
 
 ### Part (b) Use your function by calling it
 ```
-
+rect_area(4, 5)
 ```
 
 <span style="color:red">
